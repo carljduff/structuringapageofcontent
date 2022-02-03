@@ -1,1 +1,1 @@
-The purpose of this project is to replicate a page of content from a tutorial on <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Structuring_a_page_of_content"> MDN </a>.
+The purpose of this project is to replicate a page of content from a tutorial on <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Structuring_a_page_of_content">MDN</a>.
