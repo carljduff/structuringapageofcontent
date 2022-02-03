@@ -103,6 +103,13 @@ a {
     background-color: rgb(75, 215, 200);
 }
 
+h3 {
+    font-family: 'Handlee', cursive;
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0);
+}
+
 footer {
     margin: auto;
     text-align: center;
