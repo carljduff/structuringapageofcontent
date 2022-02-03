@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Handlee&family=Cutive+Mono&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/birds1.jpeg);
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: stretch;
+    background-color: rgb(75, 193, 192);
+    max-width: 900px;
+    height: auto;
+    margin: auto; /* takes up available horizontal space in the element's container equally */
+}
+
+.title {
+    font-family: 'Dongle';
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0);
+}
+
+.nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    max-width: 880px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: rgb(75, 215, 200);
+   border: 10px solid rgb(75, 193, 192);
+   
+}
+
+
+.divimg {
+    
+    padding-left: 250px;
+
+}
+
+.dove {
+    width: 50px;
+    height: 50px;
+    
+}
+
+.navbar {
+    align-content: center;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+li {
+    display: inline;
+    padding: 40px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+border-radius: 5px;
+padding: 2px;
+}
+
+
+
+.photo {
+    height: 100px;
+    width: 100px;
+
+    
+}
+
+.main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    max-width: 880px;
+    height: 500px;
+    margin: auto;
+    background-color: rgb(75, 193, 192);
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.flexchild {
+    flex: 1; /* the number is like a ratio comparing the widths of each child in the parent flex element. since they are the same, the available space will be divided up equally. 50% each because there are two. */
+}
+
+.welcome { /* selecting first child in .flexchild element */
+    margin-right: 10px;
+}
+
+.welcome, .favorite {
+    text-align: center;
+    padding: 5px;
+    padding-top: 100px;
+    background-color: rgb(75, 215, 200);
+    font-family: 'Cutive Mono', cursive; 
+}
+
+
+h3 {
+    font-family: 'Handlee', cursive;
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0);
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+    background-color: rgb(75, 193, 192);
+    max-width: 900px;
+    padding: 2px;
+    bottom: 0;
+    position: relative;
+}
+
+
+
+
