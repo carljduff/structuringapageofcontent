@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url(img/birds1.jpeg);
+    margin-top: 20px;
 }
 
 header {
@@ -133,6 +134,14 @@ footer {
     padding: 2px;
     bottom: 0;
     position: relative;
+    margin-bottom: 20px;
+}
+
+ .pics {
+    display: flex;
+
+    padding: 0;
+    margin: 0;
 }
 
 
