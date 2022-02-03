@@ -14,6 +14,7 @@ header {
     align-items: stretch;
     background-color: rgb(75, 193, 192);
     max-width: 900px;
+    border-radius: 5px;
     height: auto;
     margin: auto; /* takes up available horizontal space in the element's container equally */
 }
@@ -36,6 +37,8 @@ header {
     margin-bottom: 20px;
     background-color: rgb(75, 215, 200);
    border: 10px solid rgb(75, 193, 192);
+   border-radius: 5px;
+   
    
 }
 
@@ -55,17 +58,20 @@ header {
 
 .navbar {
     align-content: center;
+    border-radius: 5px;
     
 }
 
 ul {
     list-style-type: none;
     margin-left: 10px;
+   
 }
 
 li {
     display: inline;
     padding: 40px;
+    
     
 }
 
@@ -101,6 +107,7 @@ padding: 2px;
     padding: 10px;
     margin-bottom: 20px;
     overflow: auto;
+    border-radius: 5px;
 }
 
 .flexchild {
@@ -136,6 +143,7 @@ footer {
     bottom: 0;
     position: relative;
     margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 .row, .row1 {
