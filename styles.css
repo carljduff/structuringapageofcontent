@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Handlee&family=Cutive+Mono&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -8,10 +10,17 @@ header {
     flex-flow: row wrap;
     justify-content: flex-end;
     align-items: stretch;
-    background-color: teal;
+    background-color: rgb(75, 193, 192);
     max-width: 900px;
     height: auto;
     margin: auto; /* takes up available horizontal space in the element's container equally */
+}
+
+.title {
+    font-family: 'Dongle';
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0);
 }
 
 .nav {
@@ -19,11 +28,13 @@ header {
     flex-flow: row wrap;
     justify-content: center;
     align-items: stretch;
-    background-color: teal;
     max-width: 900px;
     height: auto;
     margin: auto;
     margin-bottom: 20px;
+    background-color: rgb(75, 215, 200);
+    border: 10px solid rgb(75, 193, 192)
+   
 }
 
 
@@ -41,7 +52,7 @@ header {
 
 .navbar {
     align-content: center;
-    background-color: teal;
+    
 }
 
 ul {
@@ -73,13 +84,12 @@ a {
     max-width: 880px;
     height: 500px;
     margin: auto;
-    background-color: teal;
+    background-color: rgb(75, 193, 192);
     padding: 10px;
 }
 
 .flexchild {
     flex: 1; /* the number is like a ratio comparing the widths of each child in the parent flex element. since they are the same, the available space will be divided up equally. 50% each because there are two. */
-    border: 2px solid black;
 }
 
 .welcome { /* selecting first child in .flexchild element */
@@ -90,12 +100,13 @@ a {
     text-align: center;
     padding: 2px;
     padding-top: 100px;
+    background-color: rgb(75, 215, 200);
 }
 
 footer {
     margin: auto;
     text-align: center;
-    background-color: teal;
+    background-color: rgb(75, 193, 192);
     max-width: 900px;
 }
 
