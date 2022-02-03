@@ -95,6 +95,7 @@ padding: 2px;
     margin: auto;
     background-color: rgb(75, 193, 192);
     padding: 10px;
+    margin-bottom: 20px;
     overflow: auto;
 }
 
@@ -126,6 +127,8 @@ footer {
     text-align: center;
     background-color: rgb(75, 193, 192);
     max-width: 900px;
+    padding: 2px;
 }
+
 
 
