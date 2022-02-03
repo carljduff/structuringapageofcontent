@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: stretch;
+    background-color: teal;
+    height: 150px;
+    max-width: 850px;
+    height: auto;
+    margin: auto; /* takes up available horizontal space in the element's container equally */
+}
+
+.divheader {
+    border: 2px solid black;
+}
+
+.divimg {
+    border: 2px solid black;
+    padding-left: 250px;
+
+}
+
+.dove {
+    width: 50px;
+    height: 50px;
+    
+}
+
+.linebreak {
+    width: 100%;
+    margin-bottom: 5px;
+    border: 1px solid black;
+}
+.navbar {
+    border: 2px solid black;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+li {
+    display: inline;
+    padding: 40px;
+}
+
+a {
+    text-decoration: none;
+}
