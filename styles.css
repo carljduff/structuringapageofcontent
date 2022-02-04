@@ -130,8 +130,6 @@ footer {
     background-color: rgb(75, 193, 192);
     max-width: 896px;
     padding: 2px;
-    bottom: 0;
-    position: relative;
     margin-bottom: 20px;
     border-radius: 5px;
 }
