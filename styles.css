@@ -99,12 +99,13 @@ padding: 2px;
     border-radius: 5px;
 }
 
-.flexchild {
-    flex: 1; /* the number is like a ratio comparing the widths of each child in the parent flex element. since they are the same, the available space will be divided up equally. 50% each because there are two. */
+.welcome { 
+    margin-right: 10px;
+    flex: 2;
 }
 
-.welcome { /* selecting first child in .flexchild element */
-    margin-right: 10px;
+.favorite {
+    flex: 1;
 }
 
 .welcome, .favorite {
@@ -132,6 +133,7 @@ footer {
     bottom: 0;
     position: relative;
     margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 .row, .row1 {
