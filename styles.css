@@ -14,8 +14,8 @@ header {
     align-items: stretch;
     background-color: rgb(75, 193, 192);
     max-width: 900px;
-    border-radius: 5px;
-    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     margin: auto; /* takes up available horizontal space in the element's container equally */
 }
 
@@ -30,14 +30,13 @@ header {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: stretch;
     max-width: 880px;
-    height: auto;
     margin: auto;
     margin-bottom: 20px;
     background-color: rgb(75, 215, 200);
    border: 10px solid rgb(75, 193, 192);
-   border-radius: 5px; 
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px; 
 }
 
 
@@ -133,7 +132,6 @@ footer {
     bottom: 0;
     position: relative;
     margin-bottom: 20px;
-    border-radius: 5px;
 }
 
 .row, .row1 {
